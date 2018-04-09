@@ -1,0 +1,19 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This is my first full stack app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRESTONPOWELL22/firstfullstackapp.git"
+  },
+  "author": "Preston Powell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRESTONPOWELL22/firstfullstackapp/issues"
+  },
+  "homepage": "https://github.com/PRESTONPOWELL22/firstfullstackapp#readme"
+}
