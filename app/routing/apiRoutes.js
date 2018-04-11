@@ -1,9 +1,12 @@
 
 module.exports = function (app, express) {
+  var data = require('../data/friends')
   app.post('/api/friends', function (req, res) {
-    // console.log(req.body)
-    var data = require('../data/friends')
     data.push(req.body)
     console.log(data)
+  })
+  app.get('/api/friends', function (req, res) {
+    var data = require('../data/friends')
+    res.write(JSON.stringify(data))
   })
 }

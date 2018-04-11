@@ -8,8 +8,8 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-var htmlRoutes = require('./app/routing/htmlRoutes.js')
 var apiRoutes = require('./app/routing/apiRoutes.js')
+var htmlRoutes = require('./app/routing/htmlRoutes.js')
 htmlRoutes(app, express)
 apiRoutes(app, express)
 
