@@ -6,7 +6,7 @@ module.exports = function (app, express) {
     console.log(data)
   })
   app.get('/api/friends', function (req, res) {
-    var data = require('../data/friends')
+    // var data = require('../data/friends')
     res.write(JSON.stringify(data))
   })
 }
